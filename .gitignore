@@ -174,5 +174,3 @@ dmypy.json
 cython_debug/
 
 ~$*.docx
-.gitignore
-Deployment2_Documentation.docx
