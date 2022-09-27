@@ -11,7 +11,7 @@ pip install awsebcli --upgrade --user
 sleep 1
 echo "Exporting PATH variable to include Jenkins bin location..."
 
-export PATH="/var/lib/Jenkins/.local/bin:$PATH"
+export PATH="/var/lib/jenkins/.local/bin:$PATH"
 
 sleep 1
 echo "Checking EB version..."
