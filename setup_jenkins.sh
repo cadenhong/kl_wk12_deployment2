@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# run on EC2 as ubuntu user
+# Script to install and set up Jenkins
+# For Deployment 2 - run this on the EC2 as Ubuntu user
 
 echo "Installing Jenkins..."
 sleep 2
@@ -24,14 +25,9 @@ sleep 2
 
 sudo systemctl status jenkins
 
-# Create and activate a jenkins user
-echo
-echo "Creating a jenkins user"
-
-sudo passwd jenkins
-
 sleep 2
 echo "Activating jenkins user..."
 sleep 2
 
+sudo passwd jenkins
 sudo su - jenkins -s /bin/bash
