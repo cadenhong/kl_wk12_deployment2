@@ -14,7 +14,7 @@
 3. On AWS, create a new IAM user with programmatic access (policy: AdministratorAccess)
 4. Back on the EC2, run [setup_awscli.sh](https://github.com/cadenhong/kl_wk12_deployment2_organized/blob/main/setup_awscli.sh) using credentials generated from Step 3
 5. `sudo su - jenkins -s /bin/bash` to activate jenkins user and run [setup_ebcli.sh](https://github.com/cadenhong/kl_wk12_deployment2_organized/blob/main/setup_ebcli.sh) to install and setup EB CLI
-6. Connect [this GitHub repository](https://github.com/cadenhong/kl_wk12_deployment2) to Jenkins via Multibranch build
+6. Connect [this GitHub repository](https://github.com/cadenhong/kl_wk12_deployment2_forked) to Jenkins via Multibranch build
 7. Deploy the Flask application via EB CLI
 ```
 sudo su - jenkins -s /bin/bash
